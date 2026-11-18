@@ -19,8 +19,7 @@ def fetch(url: str) -> tuple[int, float]:
 def main() -> int:
     MB = 1024 * 1024 
 
-    url = input("Enter URL: ")
-    print(f"URL entered: {url}")
+    url = input("Укажите URL-адрес: ")
 
     total_bytes = 0
     total_time = 0.0
